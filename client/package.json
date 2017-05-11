@@ -1,0 +1,17 @@
+{
+  "name": "blink",
+  "version": "1.0.0",
+  "description": "LED color picker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "Joan Rieu <joan@joanrieu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "rxjs": "^5.3.1"
+  }
+}
