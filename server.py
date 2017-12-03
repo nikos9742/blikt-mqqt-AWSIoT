@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 @cross_origin()
 def hello():
-    return "Hello World!"
+    return "Hello World! modified"
 
 @app.route('/led', methods=['GET', 'POST'])
 @cross_origin()
